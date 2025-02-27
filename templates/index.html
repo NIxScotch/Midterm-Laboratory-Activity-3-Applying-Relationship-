@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1 class="text-center">Welcome to My Website</h1>
+    <p class="text-center">
+        <a href="{{ url_for('users') }}" class="btn btn-primary">Manage Users</a>
+    </p>
+{% endblock %}
